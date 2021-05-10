@@ -1,0 +1,29 @@
+{
+  "name": "cleanChatTry1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha $(find . -name '*.spec.js') --watch --timeout 5000",
+    "dev-webserver": "nodemon ./drivers/webserver",
+    "dev-websocket": "nodemon ./drivers/websocket",
+    "start-webserver": "node ./drivers/webserver",
+    "start-websocket": "node ./drivers/websocket"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai-as-promised": "^7.1.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "socket.io": "^4.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "faker": "^5.5.3",
+    "mocha": "^8.3.2"
+  }
+}
