@@ -18,6 +18,12 @@ https://blog.cleancoder.com/uncle-bob/2011/11/22/Clean-Architecture.html
 ![clean architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
 
+## Be cautious
+First, it's just an afternoon playGround :)
+
+***Second***, the purpose of this repo is demonstrating the clean architecture using vanilla js as much as possible, Obviously in production when your project get bigger, it makes more and more sense to use IoC containers, such as [Inversify](https://www.npmjs.com/package/inversify) or [Awilix](https://www.npmjs.com/package/awilix) or [TypeDI](https://www.npmjs.com/package/typedi) or...
+
+
 ## Installation
 
 simply use
@@ -42,7 +48,3 @@ npm test
 
 ## Postman collection
 https://www.getpostman.com/collections/ef8e54ddac1516590c80
-
-
-## Be cautious
-it's just an afternoon playGround :)
